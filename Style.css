@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #F2EEEB
+}
+
+#Logobilde {
+  position: absolute;
+  top: 50%; left: 50%;
+  margin: auto;
+  transform: translate(-50%, -50%);
+  background-color: #F2EEEB
+}
+
+.TaskbarDown {
+  width: 100%;
+	overflow:hidden;
+	margin: 0 auto;
+  text-align: center;
+  background-color: #00554A;
+  color: white;
+  margin-top: 45%;
+}
+
+.TaskbarDown li {
+  display: inline-block;
+  list-style: none;
+  overflow: auto;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 34px;
+  background-color: #00554A;
+  padding: 1% 11%;
+  margin: 0;
+}
+
+.TaskbarDown a{
+  text-decoration: none;
+  color: white
+}
+
+.TaskbarDown li:hover {
+  background-color: #00695C
+}
+
+.Taskbar {
+  width: 100%;
+  overflow:hidden;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #00554A;
+  color: white;
+}
+
+#Button {
+  display: inline-block;
+  list-style: none;
+  overflow: auto;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 34px;
+  background-color: #00554A;
+  margin: 0;
+  width: 30%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+#Homebutton {
+  display: inline-block;
+  list-style: none;
+  overflow: auto;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 34px;
+  background-color: #00554A;
+  width: 10%
+  margin: 0;
+
+}
+
+#HomebuttonImg {
+  height: 55px;
+  margin-top: 10px;
+}
+
+  .Taskbar a{
+    text-decoration: none;
+    color: white
+  }
+
+  #Button:hover {
+    background-color: black;
+  }
