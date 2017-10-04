@@ -15,7 +15,7 @@ body {
   background-color: #F2EEEB
 }
 
-.TaskbarDown {  
+.TaskbarDown {
 	overflow:hidden;
 	margin: 0 auto;
   text-align: center;
@@ -35,7 +35,9 @@ body {
   font-family: 'Ubuntu', sans-serif;
   font-size: 34px;
   background-color: #00554A;
-  padding: 1% 11%;
+  padding: 1% 0%;
+  width: 32.8%;
+  text-align: center;
   margin: 0;
 }
 
@@ -51,7 +53,9 @@ body {
 .Taskbar {
   width: 100%;
   overflow:hidden;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
   text-align: center;
   background-color: #00554A;
   color: white;
@@ -62,8 +66,21 @@ body {
   list-style: none;
   overflow: auto;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 34px;
+  font-size: 28px;
   background-color: #00554A;
+  margin: 0;
+  width: 30%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+#ButtonHere {
+  display: inline-block;
+  list-style: none;
+  overflow: auto;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 28px;
+  background-color: black;
   margin: 0;
   width: 30%;
   padding-bottom: 1%;
@@ -74,17 +91,16 @@ body {
   display: inline-block;
   list-style: none;
   overflow: auto;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 34px;
   background-color: #00554A;
-  width: 10%
+  width: 8.5%;
   margin: 0;
 
 }
 
 #HomebuttonImg {
-  height: 55px;
-  margin-top: 10px;
+  height: 35px;
+  padding-bottom: 7%
+
 }
 
   .Taskbar a{
@@ -93,5 +109,5 @@ body {
   }
 
   #Button:hover {
-    background-color: black;
+    background-color: #00695C
   }
