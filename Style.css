@@ -15,14 +15,17 @@ body {
   background-color: #F2EEEB
 }
 
-.TaskbarDown {
-  width: 100%;
+.TaskbarDown {  
 	overflow:hidden;
 	margin: 0 auto;
   text-align: center;
   background-color: #00554A;
   color: white;
-  margin-top: 45%;
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 .TaskbarDown li {
