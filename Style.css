@@ -26,6 +26,7 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
+  font-size: 0;
 }
 
 .TaskbarDown li {
@@ -36,7 +37,7 @@ body {
   font-size: 34px;
   background-color: #00554A;
   padding: 1% 0%;
-  width: 32.8%;
+  width: 33.3%;
   text-align: center;
   margin: 0;
 }
@@ -55,10 +56,10 @@ body {
   overflow:hidden;
   margin: 0;
   padding: 0;
-  border: 0;
   text-align: center;
   background-color: #00554A;
   color: white;
+  font-size: 0;
 }
 
 #Button {
@@ -92,7 +93,7 @@ body {
   list-style: none;
   overflow: auto;
   background-color: #00554A;
-  width: 8.5%;
+  width: 10%;
   margin: 0;
 
 }
@@ -111,3 +112,38 @@ body {
   #Button:hover {
     background-color: #00695C
   }
+
+.Informasjon {
+  margin-top: 40px;
+  width: 70%;
+  background-color: white;
+  -webkit-box-shadow: 2px 2px 2px 1px rgb(68, 68, 68);
+  box-shadow: 2px 2px 3px 1px rgb(68, 68, 68);
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  text-align: left;
+  padding: 1% 10%;
+  line-height: 140%;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 3%;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#StatImg {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+
+}
