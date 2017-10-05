@@ -60,6 +60,8 @@ body {
   background-color: #00554A;
   color: white;
   font-size: 0;
+  top: 0;
+  position: fixed;
 }
 
 #Button {
@@ -114,7 +116,7 @@ body {
   }
 
 .Informasjon {
-  margin-top: 40px;
+  margin-top: 90px;
   width: 70%;
   background-color: white;
   -webkit-box-shadow: 2px 2px 2px 1px rgb(68, 68, 68);
