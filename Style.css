@@ -119,11 +119,12 @@ body {
   background-color: white;
   -webkit-box-shadow: 2px 2px 2px 1px rgb(68, 68, 68);
   box-shadow: 2px 2px 3px 1px rgb(68, 68, 68);
+  margin-bottom: 40px;
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 17px;
+  font-family: calibri, 'Open Sans', sans-serif;
+  font-size: 19px;
   text-align: left;
   padding: 1% 10%;
   line-height: 140%;
@@ -145,5 +146,5 @@ h2 {
   text-align: center;
   margin: 0 auto;
   display: block;
-
+  overflow: hidden;
 }
