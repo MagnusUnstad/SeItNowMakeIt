@@ -132,6 +132,22 @@ p {
   line-height: 140%;
 }
 
+.Informasjon li {
+  font-family: calibri, 'Open Sans', sans-serif;
+  font-size: 19px;
+  text-align: left;
+  line-height: 140%;
+  padding-left: 2%
+}
+
+ol {
+  font-family: calibri, 'Open Sans', sans-serif;
+  font-size: 19px;
+  text-align: left;
+  padding: 1% 10%;
+  line-height: 140%;
+}
+
 h1 {
     font-family: sans-serif;
     text-align: center;
